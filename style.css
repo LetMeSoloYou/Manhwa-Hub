@@ -1,0 +1,90 @@
+html{
+    font-family: "Teko", sans-serif;
+    font-weight: 300;
+    /*background-color: #686D76;
+    color: white;*/
+}
+
+.logo{
+    width:20rem;
+    padding: 0px;
+}
+
+/*
+div[class="top logo"]{
+    width: 100%;
+}*/
+
+hr{width: 100%;}
+
+.video{width:100%;}
+
+h1{
+text-align: center;
+font-size: xxx-large;
+margin: 0px;
+}
+
+.intro{
+    display: flex;
+    justify-content: center; 
+}
+
+li{
+    font-size: x-large;
+}
+
+img{
+    width:50%;
+    float:left;
+    margin: 10px;
+}
+
+.container{
+    display:inline-flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.main-container{
+    display:flex;
+    flex-flow: row wrap;
+    gap: 5rem;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.main-container > *{
+    flex: 0 0 45%;
+    background-color: #f2f2f2;
+    padding: 1rem;
+}
+
+footer{
+    clear: both;
+    text-align: end;
+}
+
+a{
+    font-weight: 900;
+    font-size: large;
+    font-family: "PT Serif", serif;
+}
+
+
+@media (max-width: 1250px) {
+    img{
+      width: 100%;
+      height: auto;
+      float: none;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo{
+        margin: 0 auto;
+        display: block;
+    }
+  }
